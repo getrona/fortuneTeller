@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller</h2>
+      </div>
+      <form id="fortune_survey">
+        <div class="form-group">
+          <p>The following are considered good luck:</p>
+          <input type="checkbox" name="goodFortune" value="Rabbits foot">Rabbits foot.<br>
+          <input type="checkbox" name="goodFortune" value="Rainbow">Rainbow.<br>
+          <input type="checkbox" name="goodFortune" value="Crystals">Crystals.<br>
+          <input type="checkbox" name="goodFortune" value="Icecream">Icecream.<br>
+          <input type="checkbox" name="goodFortune" value="Shooting star">Shooting star.<br>
+        </div>
+        <div class="form-group">
+          <p>The following are considered bad luck:</p>
+          <input type="checkbox" name="badFortune" value="Black cat">Black cat.<br>
+          <input type="checkbox" name="badFortune" value="Broken mirror">Broken mirror.<br>
+          <input type="checkbox" name="badFortune" value="13th floor">13th floor.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="goodLuck">
+        <p><b>You will encounter the following today:</b></p>
+      </span>
+      <br>
+      <span id="badLuck">
+        <p><b>You will encounter the following today:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
